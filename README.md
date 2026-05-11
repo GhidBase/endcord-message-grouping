@@ -6,18 +6,18 @@ An [endcord](https://github.com/sparklost/endcord) extension that groups consecu
 
 **Before:**
 ```
-[14:17] <Saphii    > | hey
-[14:17] <Saphii    > | imagine how stupid would it be if i stripped everything down
-[14:18] <Saphii    > | funny
-[14:19] <Saphii    > | i think i could try!
+[14:17] <Alice     > | hey everyone
+[14:17] <Alice     > | just pushed the new build
+[14:18] <Alice     > | let me know if anything looks off
+[14:19] <Alice     > | should be good to test now
 ```
 
 **After:**
 ```
-[14:17] <Saphii    > | hey
-[14:17] <           | imagine how stupid would it be if i stripped everything down
-[14:18] <           | funny
-[14:19] <           | i think i could try!
+[14:17] <Alice     > | hey everyone
+[14:17] <           | just pushed the new build
+[14:18] <           | let me know if anything looks off
+[14:19] <           | should be good to test now
 ```
 
 The username is shown once per group. It reappears whenever the author changes, or after a reply or interaction.
