@@ -1,7 +1,8 @@
 EXT_NAME = "Message Grouping"
-EXT_VERSION = "1.0.0"
+EXT_VERSION = "1.0.1"
 EXT_ENDCORD_VERSION = "1.4.2"
 EXT_DESCRIPTION = "Hides repeated usernames for consecutive messages from the same author, Discord-style."
+EXT_SOURCE = "https://github.com/GhidBase/endcord-message-grouping"
 
 class Extension:
     def __init__(self, app):
