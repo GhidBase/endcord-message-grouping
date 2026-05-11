@@ -24,10 +24,19 @@ The username is shown once per group. It reappears whenever the author changes, 
 
 ## Installation
 
-1. Copy `endcord_message_grouping/` into your endcord extensions directory:
-   - **Binary** (`/usr/bin/endcord`): `~/.local/share/endcord/Extensions/`
-   - **Dev** (`uv run main.py`): `~/.config/endcord/Extensions/`
-2. Restart endcord.
+Clone directly into your endcord extensions directory. The folder **must** be named `endcord_message_grouping` (underscores, not hyphens):
+
+**Binary** (`/usr/bin/endcord`):
+```sh
+git clone https://github.com/GhidBase/endcord-message-grouping ~/.local/share/endcord/Extensions/endcord_message_grouping
+```
+
+**Dev** (`uv run main.py`):
+```sh
+git clone https://github.com/GhidBase/endcord-message-grouping ~/.config/endcord/Extensions/endcord_message_grouping
+```
+
+Then restart endcord.
 
 ## Compatibility
 
